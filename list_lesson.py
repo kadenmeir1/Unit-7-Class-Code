@@ -42,3 +42,11 @@ print(vowel_list)
 # iterating through a list
 for vowel in vowel_list:
   print(vowel)
+
+random_nums = [7,1,12,-18,38,34,19]
+even_count = 0
+for num in random_nums:
+  if num%2 == 0:
+    even_count = even_count + 1
+
+print(even_count)
